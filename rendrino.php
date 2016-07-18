@@ -2,7 +2,7 @@
 /**
  * Rendrino
  * @author Jeffrey Wang
- * @license Full copyright
+ * @license MIT License. See LICENSE.txt for more details.
 */
 
 // Settings

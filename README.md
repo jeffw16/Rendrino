@@ -23,6 +23,8 @@ based on the settings specified in ```[pagenamehere].json```.
 
 The default page that is served, in the absence of a value for the "p" URL query, is ```rendrino.md```. Think of it as ```index.html```.
 
+Note that our included ```.htaccess``` file will now rewrite ```/rendrino.php?p=[value]``` to ```/s/[value]```.
+
 ### Creating pages
 You can make pages by creating a corresponding ```.md``` and ```.json``` file. For example, a page accessible at ```/rendrino.php?p=mypgname``` would need
 two files: ```mypgname.md``` and ```mypgname.json```.
