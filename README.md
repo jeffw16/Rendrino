@@ -1,5 +1,5 @@
 # Rendrino
-A simple Markdown-based CMS implemented with PHP. Easily maintain pages in Markdown!
+A simple Markdown-based static page CMS implemented with PHP. Easily maintain your static pages!
 
 ## Installation
 Rendrino is designed to be up and running as soon as possible. You can expect to complete installation within 5 minutes. From there, we have extensive customizability.
