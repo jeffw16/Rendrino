@@ -1,0 +1,8 @@
+{
+"title": "Rendrino Example",
+"author": "Jeffrey Wang",
+"description": "This is an example of Rendrino.",
+"modules": [
+"jquery", "bootstrap"
+]
+}
