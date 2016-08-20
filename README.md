@@ -17,7 +17,7 @@ By the way, we use Parsedown. We thank them for their amazing product and effort
 ## Usage
 
 ### Viewing pages
-Your pages will be served through `rendrino.php` and pass in the query `?p=[pagenamehere]`. Rendrino will then serve the contents in `[pagenamehere].md` based on the settings specified in `[pagenamehere].json`.
+Your pages will be served through `rendrino.php` by passing the query `?p=[pagenamehere]`. Rendrino will then serve the contents in `[pagenamehere].md` based on the settings specified in `[pagenamehere].json`.
 
 The default page that is served, in the absence of a value for the "p" URL query, is `rendrino.md`. Think of it as `index.html`.
 
@@ -85,8 +85,12 @@ To initialize "yourmodule", simply add it to the modules list in your page's `.j
 
 Note that each module can currently load one CSS and JS attribute, as well as SRI hashes. While this is limited, this will later on hopefully be improved even further. Remember that you are able to add custom code at the end of `<head>` and `<body>`, just before they close. This is usually enough for loading custom scripts and styles.
 
+## Licensing
+Rendrino is licensed under the MIT License. Read `LICENSE.txt` for more information.
+
 ## Philosophy
 We believe in:
 * minimal resources. PHP achieves this because basically all web servers for hosting have this installed.
 * minimal setup. Setup scripts are gross, and Rendrino will never require that.
 * simplicity. JSON and Markdown should make your life much easier!
+* openness. Rendrino uses the MIT License.
